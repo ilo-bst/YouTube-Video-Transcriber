@@ -19,7 +19,7 @@ This Python script downloads a YouTube video, extracts its audio, and transcribe
 
 1. Clone the repository:
     ```sh
-    git clone [https://github.com/yourusername/yourrepository.git](https://github.com/ilo-bst/YouTube-Video-Transcriber.git)
+    git clone https://github.com/ilo-bst/YouTube-Video-Transcriber.git
     cd YouTube-Video-Transcriber
     ```
 
@@ -38,6 +38,7 @@ This Python script downloads a YouTube video, extracts its audio, and transcribe
 4. Ensure `ffmpeg` is installed on your system:
     ```sh
     brew install ffmpeg  # For macOS using Homebrew
+    sudo apt install ffmpeg  # For Linux
     ```
 
 ## Usage
