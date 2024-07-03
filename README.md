@@ -19,15 +19,15 @@ This Python script downloads a YouTube video, extracts its audio, and transcribe
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone [https://github.com/yourusername/yourrepository.git](https://github.com/ilo-bst/YouTube-Video-Transcriber.git)
+    cd YouTube-Video-Transcriber
     ```
 
 2. Create and activate a virtual environment:
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # For macOS/Linux
-    .\venv\Scripts\activate  # For Windows
+    python -m venv yt-venv
+    source yt-venv/bin/activate  # For macOS/Linux
+    .\yt-venv\Scripts\activate  # For Windows
     ```
 
 3. Install the required packages:
